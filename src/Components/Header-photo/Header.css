@@ -1,0 +1,5 @@
+.header-container{
+    background-image: url('/public/images/elden-ring-new-header.jpg');
+    /* border: 2px solid red; */
+    height: 100%;
+}
