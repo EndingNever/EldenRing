@@ -14,6 +14,11 @@ export default function Overlay() {
             <span className="dot"></span>
             <span className="dot"></span>
         </div>
+        <div className="helper-icons-container">
+          <div className="helper-icons"></div>
+          <div className="helper-icons"></div>
+          <div className="helper-icons last-helper-icon"></div>
+        </div>
     </div>
   )
 }

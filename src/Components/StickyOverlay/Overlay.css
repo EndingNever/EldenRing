@@ -4,11 +4,12 @@
     position: fixed;
     bottom: 0px;
     right: 0px;
-    width: 5%;
+    width: 6%;
 
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .navigation-dots{
@@ -36,4 +37,28 @@
     border: 1px solid rgb(193,157,83);
     background-clip: content-box;
     padding: 3px;
+}
+
+.helper-icons-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 100%;
+}
+
+.helper-icons{
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.last-helper-icon{
+    margin-bottom: 30px;
 }
