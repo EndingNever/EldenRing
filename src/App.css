@@ -11,6 +11,11 @@
 }
 
 .elden-component{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 100vh;
+}
+
+.overlay-component{
+  /* border: 2px solid purple; */
+  /* width: 25vw; */
 }

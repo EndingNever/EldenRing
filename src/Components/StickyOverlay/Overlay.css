@@ -1,0 +1,36 @@
+.overlay-container{
+    /* border: 2px solid purple; */
+    height: 72vh;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.navigation-dots{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dot{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    height: 10px;
+    margin-bottom: 30px;
+    width: 10px;
+}
+
+.selected{
+    /* background-color: rgb(193,157,83); */
+    /* border: 1px solid red; */
+}

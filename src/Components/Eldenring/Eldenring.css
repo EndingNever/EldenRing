@@ -1,6 +1,6 @@
 .elden-container{
     background-image: url('/public/images/leaves-background.jpg');
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 100%;
 }
 
