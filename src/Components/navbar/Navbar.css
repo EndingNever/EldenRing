@@ -1,5 +1,97 @@
 .navbar-container{
+    /* border: 2px solid rgb(255, 255, 255); */
     background-color: rgb(255,173,0);
-    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
     height: 100%
+}
+
+
+.first-two-container{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    margin-left: 50px;
+    width: 75%;
+}
+
+
+.brand-logo{
+    background-image: url('/public/images/bandai-logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 9%;
+}
+
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 35px;
+    width: 55%;
+    height: 100%;
+    /* border: 2px solid red; */
+    
+}
+
+.navigation-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    margin-right: 20px;
+    width: 13%;    
+}
+
+.search-container{
+    /* border: 2px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    margin-right: 50px;
+    width: 45%;
+}
+
+
+.search-container input{
+    background-image: url('/public/images/navigation/icons8-search.svg');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    background-size: 25px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    width: 47%;
+    height: 50%;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+.search-container #mail{
+    height: 50%;
+    width: 5%;
+}
+
+.search-container #hr{
+    background-color: white;
+    border: none;
+    height: 60%;
+    margin-left: 18px;
+    margin-right: 18px;
+    width: 1px;
+}
+
+.search-container #user {
+    height: 50%;
+    width: 5%;
+    /* margin-right: 30px; */
 }
