@@ -24,6 +24,9 @@
 }
 
 .keyFeatures-component{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-attachment: fixed;
   background-image: url('/public/images/godfried.jpg');
   background-position: center top;

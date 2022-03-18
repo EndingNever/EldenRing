@@ -51,6 +51,9 @@
 
 .helper-icons{
     /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     border-radius: 50%;
     height: 60px;
@@ -59,6 +62,21 @@
     margin-bottom: 5px;
 }
 
-.last-helper-icon{
+.mail-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.helper-icons img{
+    height: 50%;
+    width: 50%;
+}
+
+.shopping-icon{
+    background-color: rgb(193,157,83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
 }
