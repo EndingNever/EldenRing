@@ -22,7 +22,8 @@
 
 .brand-logo{
     background-image: url('/public/images/bandai-logo.png');
-    background-position: center;
+    /* background-size: cover; */
+    background-position: 50% 54%;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
