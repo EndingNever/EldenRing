@@ -106,3 +106,48 @@
     font-weight: 800;
     margin-top: 50px;
 }
+
+.awards{
+    /* border: 2px solid red; */
+    height: 10%;
+    width: 100%;
+}
+
+.awards img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.consoles{
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 20px;
+    height: 10%;
+    width: 90%;
+}
+
+.date-text{
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+}
+
+.console-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 35%;
+    padding: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.pc{
+    width: 60px;
+}
