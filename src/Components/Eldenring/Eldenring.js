@@ -2,6 +2,8 @@ import React from 'react'
 import './Eldenring.css'
 
 export default function Eldenring() {
+  const videoTrailer = "https://www.youtube.com/watch?v=qqiC88f9ogU&t=2s"
+
   return (
     <div className='elden-container'>
       <div className="eldenring-text"></div> {/*ELDEN RING Banner text */}
@@ -75,7 +77,14 @@ export default function Eldenring() {
               </div>
             </div>
             <div className="golden-order-video">
-              video
+              <div className="video-border">
+                <img src={process.env.PUBLIC_URL + "/images/border.png"} alt="" />
+              </div>
+              {/* <iframe width={"100%"} height={"100%"} src={process.env.PUBLIC_URL + "/images/launch-trailer.webm"} frameborder="0" allow='autoPlay; loop'></iframe> */}
+              <video autoPlay loop muted src={process.env.PUBLIC_URL + "/images/launch-trailer.webm"} frameborder="0" allow='autoPlay; loop'></video>
+              <div className="video-border bottom-border">
+                <img src={process.env.PUBLIC_URL + "/images/border.png"} alt="" />
+              </div>
             </div>
           </div>
           <div className="ratings">

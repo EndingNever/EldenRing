@@ -1,8 +1,17 @@
 .header-container{
-    background-image: url('/public/images/elden-ring-new-header.jpg');
+    /* background-image: url('/public/images/elden-ring-new-header.jpg'); */
+    /* background-image: url('/public/images/header-animated.webm'); */
+    
     background-position: 50% top;
     background-repeat: no-repeat;
     background-size: cover;
     /* border: 2px solid red; */
+    height: 100%;
+}
+
+.header-container video {
+    /* border: 2px solid red; */
+    object-fit: cover;
+    width: 100%;
     height: 100%;
 }

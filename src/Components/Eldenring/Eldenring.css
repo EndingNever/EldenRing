@@ -1,178 +1,191 @@
-.elden-container{
-    background-image: url('/public/images/leaves-background.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
+.elden-container {
+  background-image: url("/public/images/leaves-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
 }
 
-.eldenring-text{
-    /* border: 2px solid red; */
-    background-image: url(/public/images/eldenring_banner.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-    color: white;
-    height: 13vh;
-    position: absolute;
-    top: 67%;
-    width: 100%;
-    
+.eldenring-text {
+  /* border: 2px solid red; */
+  background-image: url(/public/images/eldenring_banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  color: white;
+  height: 13vh;
+  position: absolute;
+  top: 67%;
+  width: 100%;
 }
 
-.elden-ring-body-container{
-    display: flex;
-    justify-content: center;
-    /* border: 2px solid purple; */
-    height: 100%;
+.elden-ring-body-container {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid purple; */
+  height: 100%;
 }
 
-.elden-ring-body-text{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid gray;
-    width: 90%;
-    height: 90%;
-    margin-top: 5%;
+.elden-ring-body-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid gray; */
+  width: 90%;
+  height: 90%;
+  margin-top: 5%;
 }
 
-.elden-ring-body-banner{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid red; */
-    color: white;
-    width: 50%;
-    margin-top: 40px;
-    height: 15%;
+.elden-ring-body-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  color: white;
+  width: 50%;
+  margin-top: 40px;
+  height: 15%;
 }
 
 .elden-ring-body-banner h1 {
-    font-size: 46px;
-    margin-bottom: 15px;
+  font-size: 46px;
+  margin-bottom: 15px;
 }
 
 .elden-ring-body-banner p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-.elden-ring-body-banner p u{
-    font-size: 12px;
+.elden-ring-body-banner p u {
+  font-size: 12px;
 }
 
-.gold-text{
-    color: rgb(189,154,82);
+.gold-text {
+  color: rgb(189, 154, 82);
 }
 
-.golden-order-container{
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-between;
-    height: 99%;
-    margin-top: 40px;
-    text-align: start;
-    width: 100%;
+.golden-order-container {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  height: 99%;
+  margin-top: 40px;
+  text-align: start;
+  width: 100%;
 }
 
-.golden-order-text{
-    border: 2px solid green;
-    padding-left: 15px;
-    line-height: 1.5;
-    height: 100%;
-    width: 40%;
+.golden-order-text {
+  /* border: 2px solid green; */
+  padding-left: 15px;
+  line-height: 1.5;
+  height: 100%;
+  width: 40%;
 }
 
-.go-text{
-    font-size: 18px;
-    font-weight: 400;
-    padding-right: 22px;
+.go-text {
+  font-size: 18px;
+  font-weight: 400;
+  padding-right: 22px;
 }
 
-.golden-order-video{
-    background-color: black;
-    border: 2px solid purple;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    width: 56%;
-    height: 60%;
+.golden-order-video {
+  /* border: 2px solid purple; */
+  width: 56%;
+  height: 60%;
 }
 
-#elden-lord-bold{
-    font-weight: 800;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.golden-order-video video {
+  width: 100%;
 }
 
-.awards{
-    /* border: 2px solid red; */
-    height: 11%;
-    width: 100%;
+.video-border img {
+    position: absolute;
+  /* height: 0%; */
+  margin-top: -18px;
+  width: 50%;
 }
 
-.awards img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.video-border img:hover{
+    border: none;
 }
 
-.console-container{
-    /* border: 2px solid gray; */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 16%;
-    /* margin-top: 20px; */
+ .bottom-border{
+    margin-left: 300px;    
 }
 
-.consoles{
-    /* border: 2px solid purple; */
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    /* margin-top: 20px; */
-    height: 60%;
-    width: 100%;
+#elden-lord-bold {
+  font-weight: 800;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.date-text{
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: center;
-    font-size: 13px;
-    height: 6%;
-    width: 40%;
-    padding: 0px;
-    margin: 0px;
-    /* margin-left: 55px; */
-    margin-bottom: 5px;
-    margin-top: 10px;
+.awards {
+  /* border: 2px solid red; */
+  height: 11%;
+  width: 100%;
 }
 
-.console-logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid white;
-    border-radius: 5px;
-    height: 35%;
-    padding: 7px;
-    margin-left: 5px;
-    margin-right: 5px;
+.awards img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-
-.pc{
-    width: 50px;
+.console-container {
+  /* border: 2px solid gray; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 16%;
+  /* margin-top: 20px; */
 }
 
-.ratings{
-    border: 2px solid purple;
-    height: 10%;
-    object-fit: contain;
-    width: 100%;
+.consoles {
+  /* border: 2px solid purple; */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  /* margin-top: 20px; */
+  height: 60%;
+  width: 100%;
+}
+
+.date-text {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  height: 6%;
+  width: 40%;
+  padding: 0px;
+  margin: 0px;
+  /* margin-left: 55px; */
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.console-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 35%;
+  padding: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pc {
+  width: 50px;
+}
+
+.ratings {
+  /* border: 2px solid purple; */
+  height: 10%;
+  object-fit: contain;
+  width: 100%;
 }
