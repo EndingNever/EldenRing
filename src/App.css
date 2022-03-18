@@ -12,10 +12,15 @@
 
 .elden-component{
   /* border: 2px solid red; */
-  height: 100vh;
+  height: 150vh;
 }
 
 .overlay-component{
   /* border: 2px solid purple; */
   /* width: 25vw; */
+}
+
+.keyFeatures-component{
+  background-color: red;
+  height: 100vh;
 }

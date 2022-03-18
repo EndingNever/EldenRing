@@ -1,15 +1,62 @@
 .elden-container{
     background-image: url('/public/images/leaves-background.jpg');
-    /* border: 2px solid red; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100%;
 }
 
 .eldenring-text{
+    /* border: 2px solid red; */
     background-image: url(/public/images/eldenring_banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
+    color: white;
     height: 13vh;
+    position: absolute;
+    top: 67%;
     width: 100%;
     
+}
+
+.elden-ring-body-container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid purple;
+    height: 100%;
+}
+
+.elden-ring-body-text{
+    display: flex;
+    justify-content: center;
+    border: 2px solid gray;
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+}
+
+.elden-ring-body-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    color: white;
+    width: 50%;
+    margin-top: 40px;
+    height: 15%;
+}
+
+.elden-ring-body-banner h1 {
+    font-size: 46px;
+    margin-bottom: 15px;
+}
+
+.elden-ring-body-banner p {
+    font-size: 14px;
+}
+
+.gold-text{
+    color: rgb(189,154,82);
 }
