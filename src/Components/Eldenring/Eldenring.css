@@ -23,7 +23,7 @@
 .elden-ring-body-container{
     display: flex;
     justify-content: center;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     height: 100%;
 }
 
@@ -32,7 +32,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     border: 2px solid gray;
     width: 90%;
     height: 90%;
@@ -69,7 +68,7 @@
 }
 
 .golden-order-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     height: 99%;
@@ -79,7 +78,7 @@
 }
 
 .golden-order-text{
-    /* border: 2px solid green; */
+    border: 2px solid green;
     padding-left: 15px;
     line-height: 1.5;
     height: 100%;
@@ -94,7 +93,7 @@
 
 .golden-order-video{
     background-color: black;
-    /* border: 2px solid purple; */
+    border: 2px solid purple;
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -105,11 +104,12 @@
 #elden-lord-bold{
     font-weight: 800;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .awards{
     /* border: 2px solid red; */
-    height: 10%;
+    height: 11%;
     width: 100%;
 }
 
@@ -119,20 +119,38 @@
     object-fit: contain;
 }
 
-.consoles{
-    /* border: 2px solid red; */
+.console-container{
+    /* border: 2px solid gray; */
     display: flex;
-    /* justify-content: center; */
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 16%;
+    /* margin-top: 20px; */
+}
+
+.consoles{
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    margin-top: 20px;
-    height: 10%;
-    width: 90%;
+    /* margin-top: 20px; */
+    height: 60%;
+    width: 100%;
 }
 
 .date-text{
-    position: relative;
-    bottom: 40px;
-    left: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    height: 6%;
+    width: 40%;
+    padding: 0px;
+    margin: 0px;
+    /* margin-left: 55px; */
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .console-logo{
@@ -149,5 +167,12 @@
 
 
 .pc{
-    width: 60px;
+    width: 50px;
+}
+
+.ratings{
+    border: 2px solid purple;
+    height: 10%;
+    object-fit: contain;
+    width: 100%;
 }
