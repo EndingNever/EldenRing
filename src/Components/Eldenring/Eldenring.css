@@ -1,5 +1,6 @@
 .elden-container {
   background-image: url("/public/images/leaves-background.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -60,6 +61,7 @@
 
 .elden-ring-body-banner p u {
   font-size: 12px;
+  cursor: pointer;
 }
 
 .gold-text {
@@ -101,18 +103,27 @@
 }
 
 .video-border img {
-    position: absolute;
+    display: flex;
+    align-items: center;
+  position: absolute;
   /* height: 0%; */
+  /* border: 2px solid red; */
+  margin-left: -2%;
   margin-top: -18px;
-  width: 50%;
+  width: 31%;
 }
 
-.video-border img:hover{
-    border: none;
+.video-border img:hover {
+  border: none;
+  outline: none;
 }
 
- .bottom-border{
-    margin-left: 300px;    
+.bottom-border {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 45%;
+  margin-top: -5px;
 }
 
 #elden-lord-bold {
@@ -174,18 +185,47 @@
   border: 1px solid white;
   border-radius: 5px;
   height: 35%;
-  padding: 7px;
+  padding: 10px;
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 0px;
+}
+
+.ps5{
+    padding-left: 14px;
 }
 
 .pc {
   width: 50px;
 }
 
+.shop-now-container{
+  /* background-color: ; */
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  height: 6%;
+}
+
+.shop-now-container button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  background-color:rgb(193,157,83);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin-top: 0px;
+  width: 24%;
+
+}
+
 .ratings {
+  /* position: relative; */
+  margin-top: 83px;
   /* border: 2px solid purple; */
-  height: 10%;
+  height: 12%;
   object-fit: contain;
   width: 100%;
 }
