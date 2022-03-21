@@ -28,7 +28,7 @@ export default function KeyFeatures() {
               <div className="KFVideo-overlap-text">
                 <h2>A New Fantasy World</h2>
               </div>
-              <div className="KFVideo-body-text" >
+              <div className="KFVideo-body-text">
                 <p>
                   Journey through the Lands Between, a new fantasy world created by Hidetaka Miyazaki, creator of the influential DARK SOULS video game series, and George R. R. Martin, author of The New York Times best-selling fantasy series, A Song of Ice and Fire.
                 </p>

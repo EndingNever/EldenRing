@@ -6,6 +6,7 @@ import Eldenring from './Components/Eldenring/Eldenring';
 import Overlay from './Components/StickyOverlay/Overlay';
 import KeyFeatures from './Components/KeyFeatures/KeyFeatures';
 import Characters from './Components/Characters/Characters';
+import Shopnow from './Components/ShopNow/Shopnow';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
       </div>
       <div className="characters-component">
         <Characters />
+      </div>
+      <div className="shopnow-component">
+        <Shopnow />
       </div>
     </div>
   );
