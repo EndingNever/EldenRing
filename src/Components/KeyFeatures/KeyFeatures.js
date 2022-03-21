@@ -28,7 +28,7 @@ export default function KeyFeatures() {
               <div className="KFVideo-overlap-text">
                 <h2>A New Fantasy World</h2>
               </div>
-              <div className="KFVideo-body-text">
+              <div className="KFVideo-body-text" >
                 <p>
                   Journey through the Lands Between, a new fantasy world created by Hidetaka Miyazaki, creator of the influential DARK SOULS video game series, and George R. R. Martin, author of The New York Times best-selling fantasy series, A Song of Ice and Fire.
                 </p>
@@ -70,10 +70,10 @@ export default function KeyFeatures() {
               </div>
               <div className="KFVideo-body-text">
                 <p>
-                Create your character in FromSoftware's refined action-RPG and define your playstyle by experimenting with a wide variety of weapons, magical abilities, and skills found throughout the world.
+                  Create your character in FromSoftware's refined action-RPG and define your playstyle by experimenting with a wide variety of weapons, magical abilities, and skills found throughout the world.
                 </p>
                 <p>
-                Charge into battle, pick off enemies one-by-one using stealth, or even call upon allies for aid. Many options are at your disposal as you decide how to approach exploration and combat. 
+                  Charge into battle, pick off enemies one-by-one using stealth, or even call upon allies for aid. Many options are at your disposal as you decide how to approach exploration and combat.
                 </p>
               </div>
             </div>
@@ -81,7 +81,7 @@ export default function KeyFeatures() {
         </div>
       </div>
       <div className='KF-border-bottom'>
-        <img src={process.env.PUBLIC_URL + "/images/border.png"} alt="" width="100%" height="100%"/>
+          <img src={process.env.PUBLIC_URL + "/images/border.png"} alt="" width="80%" height="auto" />
       </div>
     </div>
   )

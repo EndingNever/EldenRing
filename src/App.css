@@ -17,7 +17,6 @@
 }
 
 .elden-component{
-  /* border: 2px solid red; */
   height: 155vh;
 }
 
@@ -32,7 +31,7 @@
   align-items: center;
   background-attachment: fixed;
   background-image: url('/public/images/godfried.jpg');
-  background-position: center top;
+  background-position: 50% 30%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 200vh;
@@ -40,6 +39,10 @@
 }
 
 .characters-component{
-  background-color: rgba(128, 0, 128, 0.329);
-  height: 70vh;
+  background-attachment: fixed;
+  background-image: url(/public/images/char-images/characters-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
 }
