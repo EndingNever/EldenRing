@@ -5,6 +5,7 @@ import Header from './Components/Header-photo/Header';
 import Eldenring from './Components/Eldenring/Eldenring';
 import Overlay from './Components/StickyOverlay/Overlay';
 import KeyFeatures from './Components/KeyFeatures/KeyFeatures';
+import Characters from './Components/Characters/Characters';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       </div>
       <div className="keyFeatures-component">
         <KeyFeatures />
+      </div>
+      <div className="characters-component">
+        <Characters />
       </div>
     </div>
   );

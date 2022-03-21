@@ -86,7 +86,6 @@ export default function Eldenring() {
               <div className="video-border">
                 <img src={process.env.PUBLIC_URL + "/images/border.png"} alt="" />
               </div>
-              {/* <iframe width={"100%"} height={"100%"} src={process.env.PUBLIC_URL + "/images/launch-trailer.webm"} frameborder="0" allow='autoPlay; loop'></iframe> */}
               <video autoPlay loop muted src={process.env.PUBLIC_URL + "/images/launch-trailer.webm"} frameborder="0" allow='autoPlay; loop'></video>
               <div className="video-border bottom-border">
                 <img src={process.env.PUBLIC_URL + "/images/border.png"} alt="" />

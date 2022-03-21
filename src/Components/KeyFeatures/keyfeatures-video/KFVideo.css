@@ -1,0 +1,46 @@
+.KFVideo-container{
+    border: 1px solid red;
+    display: flex;
+    height: 100%;
+}
+
+.KFVideo-container video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.KFVideo-container-text{
+    border: 2px solid red;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.KFVideo-overlap-text{
+    height: 12%;
+    width: 70%;
+    
+    margin-left: -55px;
+}
+
+.KFVideo-overlap-text h2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(189, 154, 82);
+    text-transform: uppercase;
+    font-size: 30px;
+    height: 100%;
+    margin: 0px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.KFVideo-body-text p{
+    font-weight: 500;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
