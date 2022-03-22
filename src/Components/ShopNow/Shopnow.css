@@ -2,7 +2,7 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     color: white;
     border: 2px solid purple;
     height: 100%;
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 2%;
     height: 10%;
     width: 90%;
@@ -33,8 +33,34 @@
     font-size: 12px;
 }
 
+.country .dropdown-arrow {
+    -webkit-filter: invert(1);
+}
+
 .select-country{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    border-width: 0 0 1px;    
+    color: white;
     padding-bottom: 10px;
-    padding-right: 60px;
+    padding-right: 40px;
+}
+
+.platform-row{
+    border: 2px solid rebeccapurple;
+    width: 50%;
+    /* height: 15%; */
+}
+
+.platform-row-consoles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pr-console{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }

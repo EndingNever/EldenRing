@@ -1,5 +1,16 @@
 import React from 'react'
 import './Shopnow.css'
+import '../consoles-svg/consoles'
+import { xbox, ps5, xbone, ps4, pc } from '../consoles-svg/consoles';
+
+const numbers = [1, 2, 3, 4, 5];
+const doubled = numbers.map((number) => number * 2);
+const listItems = numbers.map((number)=>{
+  <li>{number}</li>
+})
+
+
+
 
 export default function Shopnow() {
     return (
@@ -10,11 +21,18 @@ export default function Shopnow() {
                     <h1>Shop Now</h1>
                 </div>
                 <div className="country">
-                    Select your country: <span className='select-country'>United States</span>
+                    Select your country: <select className='select-country'> <option value="United States"> United States </option> </select>
                 </div>
             </div>
             <div className="platform-row">
-                <p>select your platform</p>
+                <h2>Select Your Platform </h2>
+                <div className="platform-row-consoles">
+                    <div className="pr-console">{xbox}</div>
+                    <div className="pr-console">{ps5}</div>
+                    <div className="pr-console">{xbone}</div>
+                    <div className="pr-console">{ps4}</div>
+                    <div className="pr-console">{pc}</div>
+                </div>
             </div>
         </div> 
     )
