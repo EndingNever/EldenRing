@@ -1,3 +1,40 @@
 .shopnow-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* align-items: center; */
+    color: white;
     border: 2px solid purple;
+    height: 100%;
+}
+
+.top-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    margin-top: 2%;
+    height: 10%;
+    width: 90%;
+}
+
+.shopnow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopnow h1{
+    position: absolute;
+    margin-left: 140px;
+}
+
+.country{
+    font-size: 12px;
+}
+
+.select-country{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    padding-bottom: 10px;
+    padding-right: 60px;
 }

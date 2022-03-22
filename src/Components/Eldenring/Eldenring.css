@@ -219,10 +219,20 @@
   color: white;
   margin-top: 0px;
   width: 24%;
-
+  
 }
 
-.ratings {
+.shop-now-container button:hover {
+  background-color: inherit;
+  border: 1px solid rgb(193,157,83);
+  /* color:rgb(193,157,83); */
+  -webkit-transition: color .5s;
+  -moz-transition:    color .5s;
+  -ms-transition:     color .5s;
+  -o-transition:      color .5s;
+  transition:         all .5s;
+}
+  .ratings {
   margin-top: 83px;
   height: 12%;
   object-fit: contain;
