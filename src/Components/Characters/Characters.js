@@ -4,9 +4,11 @@ import './Characters.css'
 export default function Characters() {
   return (
     <div className='characters-container'>
+      <div className="characters-title">
+        <h1>Characters</h1>
+      </div>
       <div className="character warrior">
         <img src="/images/char-images/warrior.png" alt="" />
-        
       </div>
       <div className="character hero">
         <img src="/images/char-images/hero.png" alt="" />

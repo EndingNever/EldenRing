@@ -46,6 +46,10 @@
     
 }
 
+.navigation-bar img{
+    -webkit-filter: invert(1);
+}
+
 .navigation-item{
     display: flex;
     align-items: center;

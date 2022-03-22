@@ -63,6 +63,9 @@ export default function Eldenring() {
                 <img src={process.env.PUBLIC_URL + "/images/border.png"} alt="" />
               </div>
               <video autoPlay loop muted src={process.env.PUBLIC_URL + "/images/launch-trailer.webm"} frameborder="0" allow='autoPlay; loop'></video>
+              <svg className='icon-player' xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 60 60" aria-hidden="true">
+                <path d="m39.341 31.639-14.384 10.165c-0.202 0.143-0.43701 0.212-0.66999 0.212-0.34899 0-0.69399-0.155-0.91598-0.447-0.37101-0.48699-0.262-1.171 0.243-1.528l14.092-9.9592-13.659-9.654v12.684c0 0.60399-0.50799 1.094-1.135 1.094s-1.135-0.48999-1.135-1.094v-13.196c0-0.732 0.42-1.393 1.096-1.723 0.675-0.32901 1.474-0.265 2.085 0.167l14.381 10.164c0.513 0.36201 0.81998 0.945 0.81998 1.559 0 0.61299-0.306 1.194-0.81802 1.556m-9.3412-31.638c-16.568 0-30 13.432-30 30 0 16.569 13.432 30 30 30 16.569 0 30-13.431 30-30 0-16.568-13.431-30-30-30"></path>
+              </svg>
               <div className="video-border bottom-border">
                 <img src={process.env.PUBLIC_URL + "/images/border.png"} alt="" />
               </div>

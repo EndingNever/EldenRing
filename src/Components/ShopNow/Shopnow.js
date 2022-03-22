@@ -5,8 +5,8 @@ import { xbox, ps5, xbone, ps4, pc } from '../consoles-svg/consoles';
 
 const numbers = [1, 2, 3, 4, 5];
 const doubled = numbers.map((number) => number * 2);
-const listItems = numbers.map((number)=>{
-  <li>{number}</li>
+const listItems = numbers.map((number) => {
+    <li>{number}</li>
 })
 
 
@@ -34,6 +34,27 @@ export default function Shopnow() {
                     <div className="pr-console">{pc}</div>
                 </div>
             </div>
-        </div> 
+            <div className="comparison-row">
+                <div className="comparison-nav-arrows">
+                    <div className="nav-arrow">
+                        &#8592;
+                    </div>
+                    <h1>
+                        1 <span className='out-of-5'>/ 5</span>
+                    </h1>
+                    <div className="nav-arrow">
+                        &#8594;
+                    </div>
+                </div>
+                <div className="comparison-chart">
+                    <h3><u>Comparison Chart</u></h3>
+                    <div className="comparison-cards">
+                        <div className="comparison-card">test</div>
+                        <div className="comparison-card">test</div>
+                        <div className="comparison-card">test</div>
+                    </div>
+                </div>
+            </div>
+        </div >
     )
 }

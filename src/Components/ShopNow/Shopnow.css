@@ -47,7 +47,7 @@
 
 .platform-row{
     border: 2px solid rebeccapurple;
-    width: 50%;
+    width: 30%;
     /* height: 15%; */
 }
 
@@ -63,4 +63,53 @@
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.comparison-row{
+    border: 2px solid red;
+    width: 65%;
+    height: 60%;
+}
+
+.comparison-nav-arrows{
+    border: 2px solid purple;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.out-of-5{
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.comparison-nav-arrows h1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-arrow{
+    background-color: rgb(189, 154, 82);
+    border-radius: 50%;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+.comparison-cards{
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-grow: 1;
+    /* height: 80%; */
+}
+
+.comparison-card{
+    border: 2px solid red;
+    width: 100%;
 }
