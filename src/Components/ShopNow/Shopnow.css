@@ -141,6 +141,8 @@
 }
 
 .comparison-card-text{
+    background-image: url('/public/images/retailers.jpg');
+    background-repeat: no-repeat;
     border: 2px solid green;
     display: flex;
     flex-direction: column;
