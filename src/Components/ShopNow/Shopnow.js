@@ -3,11 +3,11 @@ import './Shopnow.css'
 import '../consoles-svg/consoles'
 import { xbox, ps5, xbone, ps4, pc, shopSVGLarge, shopSVG } from '../consoles-svg/consoles';
 
-const numbers = [1, 2, 3, 4, 5];
-const doubled = numbers.map((number) => number * 2);
-const listItems = numbers.map((number) => {
-    <li>{number}</li>
-})
+// const numbers = [1, 2, 3, 4, 5];
+// const doubled = numbers.map((number) => number * 2);
+// const listItems = numbers.map((number) => {
+//     <li>{number}</li>
+// })
 
 
 
@@ -28,7 +28,7 @@ export default function Shopnow() {
             <div className="platform-row">
                 <h2>Select Your Platform </h2>
                 <div className="platform-row-consoles">
-                    <div className="pr-console">{xbox}</div>
+                    <div className="pr-console pr-console-xbox">{xbox}</div>
                     <div className="pr-console">{ps5}</div>
                     <div className="pr-console">{xbone}</div>
                     <div className="pr-console">{ps4}</div>
@@ -89,6 +89,35 @@ export default function Shopnow() {
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="elegant-border-row">
+                <div className="elegant-border">
+                    {/* Picture of Border */}
+                </div>
+            </div>
+            <div className="guides-advice">
+                <div className="guides-title">
+                    <h1>
+                        ELDEN RING: Guides & Advice
+                    </h1>
+                    <p>
+                        Get ready for your journey through the Lands Between
+                    </p>
+                </div>
+                <div className="guide-cards">
+                    <div className="guide-card guide-card-1">
+                        {/* background-photo */}
+                    </div>
+                    <div className="guide-card guide-card-2">
+                        {/* background-photo */}
+                    </div>
+                    <div className="guide-card guide-card-3">
+                        {/* background-photo */}
+                    </div>
+                </div>
+                <div className="guides-button">
+                    <button>See All Guides</button>
                 </div>
             </div>
         </div >
