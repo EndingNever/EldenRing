@@ -1,7 +1,7 @@
 import React from 'react'
 import './Shopnow.css'
 import '../consoles-svg/consoles'
-import { xbox, ps5, xbone, ps4, pc } from '../consoles-svg/consoles';
+import { xbox, ps5, xbone, ps4, pc, shopSVGLarge, shopSVG } from '../consoles-svg/consoles';
 
 const numbers = [1, 2, 3, 4, 5];
 const doubled = numbers.map((number) => number * 2);
@@ -17,7 +17,8 @@ export default function Shopnow() {
         <div className='shopnow-container'>
             <div className="top-row">
                 <div className="shopnow">
-                    <svg xmlns="http://www.w3.org/2000/svg" fillOpacity={0.4} width="100" height="100" viewBox="0 0 20 20"><path d="M15.894 4.079h-1.735a4.116 4.116 0 00-8.232.075v.834c0 .262.213.475.476.475h4.17a.717.717 0 00.767-.667.717.717 0 00-.717-.717H7.362a2.727 2.727 0 012.727-2.661 2.686 2.686 0 012.636 2.677v.934c0 .263.213.476.475.476h1.735l.717 13.052H4.435l.717-13.761a.717.717 0 00-1.435 0L3 19.516a.475.475 0 00.475.484h13.136a.475.475 0 00.476-.475l-.743-14.971a.475.475 0 00-.45-.475z" fill="#FFF" fill-rule="evenodd" /></svg>
+                    {shopSVGLarge}
+                    {/* <svg xmlns="http://www.w3.org/2000/svg" fillOpacity={0.4} width="100" height="100" viewBox="0 0 20 20"><path d="M15.894 4.079h-1.735a4.116 4.116 0 00-8.232.075v.834c0 .262.213.475.476.475h4.17a.717.717 0 00.767-.667.717.717 0 00-.717-.717H7.362a2.727 2.727 0 012.727-2.661 2.686 2.686 0 012.636 2.677v.934c0 .263.213.476.475.476h1.735l.717 13.052H4.435l.717-13.761a.717.717 0 00-1.435 0L3 19.516a.475.475 0 00.475.484h13.136a.475.475 0 00.476-.475l-.743-14.971a.475.475 0 00-.45-.475z" fill="#FFF" fill-rule="evenodd" /></svg> */}
                     <h1>Shop Now</h1>
                 </div>
                 <div className="country">
@@ -53,31 +54,38 @@ export default function Shopnow() {
                             <div className="comparison-card-photo card1">
                                 {/* photo */}
                             </div>
-                            <div className="comparison-card-text">
+                            <div className="comparison-card-text card-text-1">
                                 <h2>Standard Edition</h2>
-                                <button>Official Store</button>
-                                <button>Retailers</button>
-                                <h4>Details</h4>
+                                <button className='comparison-button official-store'><span className='comparison-shop-SVG'>{shopSVG}</span> Official Store</button>
+                                <button className='comparison-button'>Retailers</button>
+                                <div className="comparison-details">
+                                    <h4>Details</h4>
+                                    <p>+</p>
+                                </div>
                             </div>
                         </div>
                         <div className="comparison-card">
                             <div className="comparison-card-photo card2">
-                                
                             </div>
                             <div className="comparison-card-text">
                                 <h2>Digital Deluxe Edition</h2>
-                                <button>Retailers</button>
-                                <h4>Details</h4>
+                                <button className='comparison-button'>Retailers</button>
+                                <div className="comparison-details">
+                                    <h4>Details</h4>
+                                    <p>+</p>
+                                </div>
                             </div>
                         </div>
                         <div className="comparison-card">
                             <div className="comparison-card-photo card3">
-
                             </div>
                             <div className="comparison-card-text">
                                 <h2>Launch Edition</h2>
-                                <button>Official Store</button>
-                                <h4>Details</h4>
+                                <button className='comparison-button official-store'><span className='comparison-shop-SVG'>{shopSVG}</span> Official Store</button>
+                                <div className="comparison-details">
+                                    <h4>Details</h4>
+                                    <p>+</p>
+                                </div>
                             </div>
                         </div>
                     </div>
