@@ -49,9 +49,37 @@ export default function Shopnow() {
                 <div className="comparison-chart">
                     <h3><u>Comparison Chart</u></h3>
                     <div className="comparison-cards">
-                        <div className="comparison-card">test</div>
-                        <div className="comparison-card">test</div>
-                        <div className="comparison-card">test</div>
+                        <div className="comparison-card">
+                            <div className="comparison-card-photo card1">
+                                {/* photo */}
+                            </div>
+                            <div className="comparison-card-text">
+                                <h2>Standard Edition</h2>
+                                <button>Official Store</button>
+                                <button>Retailers</button>
+                                <h4>Details</h4>
+                            </div>
+                        </div>
+                        <div className="comparison-card">
+                            <div className="comparison-card-photo card2">
+                                
+                            </div>
+                            <div className="comparison-card-text">
+                                <h2>Digital Deluxe Edition</h2>
+                                <button>Retailers</button>
+                                <h4>Details</h4>
+                            </div>
+                        </div>
+                        <div className="comparison-card">
+                            <div className="comparison-card-photo card3">
+
+                            </div>
+                            <div className="comparison-card-text">
+                                <h2>Launch Edition</h2>
+                                <button>Official Store</button>
+                                <h4>Details</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

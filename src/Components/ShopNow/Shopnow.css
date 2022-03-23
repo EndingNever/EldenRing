@@ -68,7 +68,7 @@
 .comparison-row{
     border: 2px solid red;
     width: 65%;
-    height: 60%;
+    height: 65%;
 }
 
 .comparison-nav-arrows{
@@ -100,16 +100,50 @@
     width: 40px;
 }
 
+.comparison-chart h3{
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
 .comparison-cards{
     border: 2px solid gray;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     flex-grow: 1;
-    /* height: 80%; */
+    height: 480px
 }
 
 .comparison-card{
-    border: 2px solid red;
-    width: 100%;
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 100%;
+}
+
+.comparison-card-photo{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    height: 45%
+}
+
+.card1{
+    background-image: url('/public/images/keyart.jpg');
+}
+
+.card2{
+    background-image: url('/public/images/keyart2.jpg');
+}
+
+.card3{
+    background-image: url('/public/images/keyart3.jpg');
+}
+
+.comparison-card-text{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55%;
 }
