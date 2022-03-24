@@ -1,5 +1,4 @@
 import React from 'react'
-// import KFVideo from './keyfeatures-video/KFVideo'
 import './KeyFeatures.css'
 
 export default function KeyFeatures() {

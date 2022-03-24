@@ -1,5 +1,4 @@
 .keyfeatures-container{
-    /* border: 1px solid red; */
     color: white;
     text-align: start;
     height: 90%;
@@ -12,21 +11,17 @@
 }
 
 .KF-text-container{
-    /* border: 1px solid purple; */
     height: 93%;
     margin-top: 50px;
     width: 100%;
 }
 
 .KF-video-text{
-    /* border: 1px solid gray; */
-    margin-top: 20px;
     height:33%;
     width: 100%;
 }
 
 .KFVideo-container{
-    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +29,6 @@
 }
 
 .KFVideo-container-video{
-    /* border: 2px solid pink; */
     width: 50%
 }
 
@@ -48,7 +42,6 @@
 }
 
 .KFVideo-container-text{
-    /* border: 2px solid red; */
     height: 75%;
     width: 50%;
     margin-top: 50px;
