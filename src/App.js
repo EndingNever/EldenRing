@@ -7,12 +7,6 @@ import Overlay from './Components/StickyOverlay/Overlay';
 import KeyFeatures from './Components/KeyFeatures/KeyFeatures';
 import Characters from './Components/Characters/Characters';
 import Shopnow from './Components/ShopNow/Shopnow';
-import NumberList from './Components/numbers/NumberList';
-
-
-const numbers = [4, 5, 6, 7, 8]
-
-
 
 function App() {
   return (

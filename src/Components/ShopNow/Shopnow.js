@@ -1,18 +1,15 @@
 import React from 'react'
 import './Shopnow.css'
-import '../consoles-svg/consoles'
+// import '../consoles-svg/consoles'
 import { xbox, ps5, xbone, ps4, pc, shopSVGLarge, shopSVG } from '../consoles-svg/consoles';
 import News from '../News/News';
-import Follow from '../FollowUs/Follow';
+// import Follow from '../FollowUs/Follow';
 
 // const numbers = [1, 2, 3, 4, 5];
 // const doubled = numbers.map((number) => number * 2);
 // const listItems = numbers.map((number) => {
 //     <li>{number}</li>
 // })
-
-
-
 
 export default function Shopnow() {
     return (
