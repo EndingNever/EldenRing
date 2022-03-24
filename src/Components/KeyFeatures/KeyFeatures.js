@@ -64,7 +64,7 @@ export default function KeyFeatures() {
               <video autoPlay loop muted src={image[2].url} alt="" />
             </div>
             <div className="KFVideo-container-text">
-              <div className="KFVideo-overlap-text">
+              <div className="KFVideo-overlap-text gdg">
                 <h2>GENRE DEFINING GAMEPLAY</h2>
               </div>
               <div className="KFVideo-body-text">

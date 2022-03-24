@@ -2,6 +2,8 @@ import React from 'react'
 import './Shopnow.css'
 import '../consoles-svg/consoles'
 import { xbox, ps5, xbone, ps4, pc, shopSVGLarge, shopSVG } from '../consoles-svg/consoles';
+import News from '../News/News';
+import Follow from '../FollowUs/Follow';
 
 // const numbers = [1, 2, 3, 4, 5];
 // const doubled = numbers.map((number) => number * 2);
@@ -184,6 +186,17 @@ export default function Shopnow() {
                     </div>
                 </div>
             </div>
+
+            <div className="news-component-container">
+                <News />
+            </div>
+            
+            {/* <div className="follow-us-component-container">
+                <Follow />
+            </div> */}
+            
+            
+            
         </div >
     )
 }

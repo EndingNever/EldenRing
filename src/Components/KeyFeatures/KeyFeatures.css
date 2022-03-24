@@ -46,14 +46,15 @@
     width: 50%;
     margin-top: 50px;
     z-index: 1;
+    /* border: 2px solid red; */
 }
 
 .KFVideo-overlap-text{
-    height: 10%;
-    width: 70%;
+    height: 13%;
+    width: 60%;
     margin-left: -55px;
-    /* margin-left: 55px; */
 }
+
 
 .KFVideo-overlap-text h2{
     display: flex;
@@ -65,7 +66,6 @@
     height: 100%;
     margin: 0px;
     padding-right: 20px;
-    /* text-align: center; */
 }
 
 
@@ -75,6 +75,7 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
 
 .video-2-title{
     display: flex;
@@ -105,4 +106,10 @@
     margin-left: -16%;
     height: 4%;
     width: 100%;
+}
+
+.KFVideo-overlap-text.gdg h2{
+    /* height: 100%; */
+    /* border: 2px solid red; */
+    width: 105%;
 }
