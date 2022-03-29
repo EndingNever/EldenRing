@@ -19,11 +19,11 @@ export default function Navbar() {
       url: 'https://en.bandainamcoent.eu/themes/custom/bne_main/dist/images/logoSupport.svg'
     },
   ]
-  
+
   // console.log(photos[0].url)
-  
+
   return (
-    
+
     <div className='navbar-container'>
       <div className="first-two-container">
         <div className="brand-logo">
@@ -38,10 +38,10 @@ export default function Navbar() {
         </div>
       </div>
       <div className="search-container">
-          <input className='search-container-item' type="text" placeholder='Search' />
-          <img src='/images/navigation/email-svgrepo-com.svg' className='search-container-item' id='mail'></img>
-          <span id="hr"></span>
-          <img src='/images/navigation/user-svgrepo-com.svg' className='search-container-item' id="user"></img>
+        <input className='search-container-item' type="text" placeholder='Search' />
+        <img src='/images/navigation/email-svgrepo-com.svg' className='search-container-item' id='mail'></img>
+        <span id="hr"></span>
+        <img src='/images/navigation/user-svgrepo-com.svg' className='search-container-item' id="user"></img>
       </div>
     </div>
   )

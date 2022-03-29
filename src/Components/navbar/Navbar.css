@@ -1,105 +1,245 @@
-.navbar-container{
-    /* border: 2px solid rgb(255, 255, 255); */
-    background-color: rgb(255,173,0);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    height: 6vh;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
+.navbar-container {
+  /* border: 2px solid rgb(255, 255, 255); */
+  background-color: rgb(255, 173, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 6vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
 
-
-.first-two-container{
-    /* border: 2px solid red; */
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 100%;
-    margin-left: 50px;
-    width: 75%;
+.first-two-container {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  margin-left: 50px;
+  width: 650px;
 }
 
-
-.brand-logo{
-    background-image: url('/public/images/bandai-logo.png');
-    /* background-size: cover; */
-    background-position: 50% 52%;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 9%;
+.brand-logo {
+  background-image: url("/public/images/bandai-logo.png");
+  /* border: 2px solid red; */
+  /* background-size: cover; */
+  background-position: 50% 52%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100px;
 }
 
-.navigation-bar{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-left: 35px;
-    width: 55%;
-    height: 100%;
-    /* border: 2px solid red; */
-    
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 35px;
+  width: 500px;
+  height: 100%;
+  /* border: 2px solid red; */
 }
 
-.navigation-bar img{
-    -webkit-filter: invert(1);
+.navigation-bar img {
+  -webkit-filter: invert(1);
 }
 
-.navigation-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40%;
-    margin-right: 20px;
-    width: 13%;    
+.navigation-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+  margin-right: 20px;
+  width: 80px;
 }
 
-.search-container{
-    /* border: 2px solid purple; */
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 100%;
-    margin-right: 50px;
-    width: 45%;
+.search-container {
+  border: 2px solid purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-right: 50px;
+  width: 400px;
 }
 
-
-.search-container input{
-    background-image: url('/public/images/navigation/icons8-search.svg');
-    background-repeat: no-repeat;
-    background-position: 96%;
-    background-size: 25px;
-    background-color: white;
-    border-radius: 8px;
-    border: none;
-    width: 47%;
-    height: 50%;
-    margin-right: 30px;
-    padding: 5px;
+.search-container input {
+  background-image: url("/public/images/navigation/icons8-search.svg");
+  background-repeat: no-repeat;
+  background-position: 96%;
+  background-size: 25px;
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  width: 200px;
+  height: 50%;
+  margin-right: 20px;
+  padding: 5px;
 }
 
-.search-container #mail{
-    height: 50%;
-    width: 5%;
+.search-container #mail {
+  height: 35px;
+  width: 35px;
 }
 
-.search-container #hr{
-    background-color: white;
-    border: none;
-    height: 60%;
-    margin-left: 18px;
-    margin-right: 18px;
-    width: 1px;
+.search-container #hr {
+  background-color: white;
+  border: none;
+  height: 40px;
+  margin-left: 18px;
+  margin-right: 18px;
+  width: 1px;
 }
 
 .search-container #user {
-    height: 50%;
-    width: 5%;
-    /* margin-right: 30px; */
+  height: 35px;
+  width: 35px;
+}
+
+@media screen and (max-width: 1175px) {
+  .first-two-container {
+    margin-left: 0px;
+  }
+
+  .search-container {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .first-two-container {
+    width: 500px;
+  }
+
+  .brand-logo {
+    background-position: 50% 62%;
+  }
+
+  .navigation-item {
+    margin-right: 10px;
+    width: 60px;
+  }
+
+  .search-container {
+    /* width: 400px;         */
+  }
+
+  .search-container input {
+    margin-right: 10px;
+    width: 150px;
+  }
+
+  .search-container #user {
+    height: 25px;
+    width: 25px;
+  }
+
+  .search-container #mail {
+    height: 25px;
+    width: 25px;
+  }
+
+  .search-container #hr {
+    height: 30px;
+    margin-left: 9px;
+    margin-right: 9px;
+    width: 1px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .first-two-container {
+    width: 650px;
+  }
+
+  .brand-logo {
+    background-size: cover;
+    background-position: 50% 53%;
+  }
+
+  .navigation-item {
+    margin-right: 10px;
+    width: 90px;
+  }
+
+  .search-container {
+    width: 400px;
+  }
+
+  .search-container input {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .search-container input {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .first-two-container {
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .brand-logo {
+    display: none;
+  }
+
+  .navigation-bar {
+    margin-left: 0px;
+    justify-content: center;
+  }
+
+  .navigation-item {
+    margin-right: 8px;
+    height: 33%;
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .brand-logo {
+    display: none;
+  }
+
+  .first-two-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    width: 80%;
+  }
+
+  .search-container {
+    border: 2px solid purple;
+    width: 20%;
+  }
+
+  .navigation-bar {
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navigation-item {
+    margin-right: 5px;
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 645px) {
+  .brand-logo {
+    display: flex;
+    background-size: cover;
+    background-position: 50% 53%;
+  }
 }

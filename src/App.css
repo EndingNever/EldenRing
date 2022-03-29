@@ -27,6 +27,7 @@
 }
 
 .keyFeatures-component{
+  /* border: 12px solid purple; */
   display: flex;
   justify-content: center;
   align-items: center;
