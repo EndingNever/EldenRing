@@ -10,11 +10,13 @@
 
 
 .navbar-component{
-  height: 6vh;
+  height: 58px;
 }
 
 .header-component{
-  height: 65vh;
+  border: 2px solid red;
+  width: 100vw;
+  height: 630px;
 }
 
 .elden-component{
