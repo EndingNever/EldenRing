@@ -14,7 +14,7 @@
   background-position: center;
   background-size: auto;
   color: white;
-  height: 13vh;
+  height: 8rem;
   position: absolute;
   top: 67%;
   width: 100%;
@@ -70,7 +70,7 @@
 }
 
 .golden-order-container {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   height: 99%;
@@ -80,7 +80,7 @@
 }
 
 .golden-order-text {
-  /* border: 2px solid green; */
+  border: 2px solid green;
   padding-left: 15px;
   line-height: 1.5;
   height: 100%;
@@ -144,8 +144,8 @@
 }
 
 .awards {
-  /* border: 2px solid red; */
-  height: 11%;
+  border: 2px solid red;
+  height: 100px;
   width: 100%;
 }
 
@@ -156,22 +156,22 @@
 }
 
 .console-container {
-  /* border: 2px solid gray; */
+  border: 2px solid gray;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 16%;
+  height: 150px;
   /* margin-top: 20px; */
 }
 
 .consoles {
-  /* border: 2px solid purple; */
+  border: 2px solid purple;
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
   /* margin-top: 20px; */
-  height: 60%;
+  height: 80px;
   width: 100%;
 }
 
@@ -192,11 +192,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   border: 1px solid white;
   border-radius: 5px;
   cursor: pointer;
-  height: 35%;
+  height: 30px;
+  width: auto;
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 0px;
@@ -223,14 +223,12 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  
   background-color:rgb(193,157,83);
   border: none;
   border-radius: 8px;
   color: white;
   margin-top: 0px;
-  width: 24%;
-  
+  width: 170px;
 }
 
 .shop-now-container button:hover {
@@ -244,8 +242,9 @@
   transition:         all .5s;
 }
   .ratings {
+    border: 2px solid red;
   margin-top: 83px;
-  height: 12%;
+  height: 200px;
   object-fit: contain;
   width: 100%;
 }
