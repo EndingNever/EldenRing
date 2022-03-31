@@ -3,7 +3,6 @@ import './Eldenring.css'
 import { xbox, ps5, xbone, ps4, pc } from '../consoles-svg/consoles'
 
 export default function Eldenring() {
-  const videoTrailer = "https://www.youtube.com/watch?v=qqiC88f9ogU&t=2s"
 
   return (
     <div className='elden-container'>

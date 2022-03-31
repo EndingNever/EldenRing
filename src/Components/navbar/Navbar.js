@@ -20,7 +20,6 @@ export default function Navbar() {
     },
   ]
 
-  // console.log(photos[0].url)
 
   return (
 

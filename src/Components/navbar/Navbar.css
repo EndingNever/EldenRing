@@ -202,6 +202,11 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .navbar-container{
+    width: 100vw;
+  }
+  
   .brand-logo {
     display: none;
   }
