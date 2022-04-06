@@ -7,17 +7,29 @@
   height: 100%;
 }
 
-.eldenring-text {
+.eldenring-text-container {
   /* border: 2px solid red; */
-  background-image: url(/public/images/eldenring_banner.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 8rem;
   position: absolute;
   top: 645px;
   width: 100%;
+}
+
+.eldenring-text{
+  /* border: 2px solid purple; */
+  background-image: url(/public/images/eldenring_banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  width: 70%;
+  height: 100%;
 }
 
 .elden-ring-body-container {

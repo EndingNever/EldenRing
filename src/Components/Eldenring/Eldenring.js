@@ -6,7 +6,9 @@ export default function Eldenring() {
 
   return (
     <div className='elden-container'>
-      <div className="eldenring-text"></div> {/*ELDEN RING Banner text */}
+      <div className="eldenring-text-container">{/*ELDEN RING Banner text */}
+        <div className="eldenring-text"></div>
+      </div> 
       <div className="elden-ring-body-container">
         <div className="elden-ring-body-text">
           <div className="elden-ring-body-banner">
