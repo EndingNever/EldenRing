@@ -16,7 +16,7 @@
   color: white;
   height: 8rem;
   position: absolute;
-  top: 67%;
+  top: 645px;
   width: 100%;
 }
 
@@ -72,6 +72,7 @@
 .golden-order-container {
   /* border: 2px solid red; */
   display: flex;
+  /* flex-direction: column; */
   justify-content: space-between;
   height: 99%;
   margin-top: 40px;
@@ -83,7 +84,7 @@
   border: 2px solid green;
   padding-left: 15px;
   line-height: 1.5;
-  height: 100%;
+  height: 91%;
   width: 40%;
 }
 
@@ -246,8 +247,75 @@
 }
 .ratings {
   border: 2px solid red;
-  margin-top: 83px;
-  height: 200px;
-  object-fit: contain;
-  width: 100%;
+  /* position: absolute; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* margin-left: 0%; */
+  /* margin-top:85%; */
+  /* margin-top: 83px; */
+  /* height: 200px; */
+  /* object-fit: cover; */
+  /* width: 100%; */
+}
+
+.ratings img{
+  object-fit: cover;
+  max-width: 80%;
+}
+
+@media screen and (max-width:768px) {
+
+.golden-order-container {
+   /* border: 2px solid red; */
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .golden-order-video {
+    width: 90%;
+    height: 60%;
+    margin-bottom: 20px;
+  }
+  
+
+
+  .icon-player {
+    width: 60px;
+    height: auto;
+    margin-top: 20%;
+    margin-left:-44%;
+  }
+  
+  .video-border img {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    /* height: 0%; */
+    /* border: 2px solid red; */
+    margin-left: -2%;
+    margin-top: -1.8%;
+    max-width: 50%;
+  }
+  
+  /* .video-border img:hover {
+    border: none;
+    outline: none;
+  }
+  
+  .bottom-border {
+    border: 2px solid red;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40%;
+    margin-top: -5px;
+  } */
+  
+  .golden-order-text {
+    border: none;
+    order: 2;
+    text-align: center;
+    width: 95%;
+  }
 }
