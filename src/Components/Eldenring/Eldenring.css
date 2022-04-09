@@ -24,12 +24,13 @@
   background-image: url(/public/images/eldenring_banner.png);
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  width: 70%;
-  height: 100%;
+  -webkit-background-size: 68%;
+  -moz-background-size: 68%;
+  background-size: 68%;
+  -o-background-size: 68%;
+  width: 80%;
+  padding: 5%;
+  /* height: 100%; */
 }
 
 .elden-ring-body-container {
