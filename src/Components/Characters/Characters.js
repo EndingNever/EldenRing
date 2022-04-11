@@ -24,9 +24,9 @@ export default function Characters() {
       <div className="character wretch">
         <img src="/images/char-images/wretch.png" alt="" />
       </div>
-      <div className="character prophet">
+      {/* <div className="character prophet">
         <img src="/images/char-images/prophet.png" alt="" />
-      </div>
+      </div> */}
     </div>
   )
 }

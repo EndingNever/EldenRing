@@ -14,9 +14,9 @@ function App() {
       <div className="navbar-component">
         <Navbar />
       </div>
-      <div className="overlay-component">
+      {/* <div className="overlay-component">
         <Overlay />
-      </div>
+      </div> */}
       <div className="header-component">
         <Header />
       </div>
@@ -29,9 +29,9 @@ function App() {
       <div className="characters-component">
         <Characters />
       </div>
-      <div className="shopnow-component">
+      {/* <div className="shopnow-component">
         <Shopnow />
-      </div>
+      </div> */}
     </div>
   );
 }

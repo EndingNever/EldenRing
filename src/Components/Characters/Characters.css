@@ -1,51 +1,65 @@
-.characters-container{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100%;
-    width: 100%;
+.characters-container {
+  color: white;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  max-width: 100%;
 }
 
-.characters-title{
-    font-size:30px;
-    left: 0px;
-    margin-bottom: 700px;
-    margin-left: 100px;
-    /* bottom: 100%; */
-    /* bottom: 0px; */
-    position: absolute;
+.characters-title {
+  font-size: 30px;
+  left: 0px;
+  margin-bottom: 700px;
+  margin-left: 100px;
+  /* bottom: 100%; */
+  /* bottom: 0px; */
+  position: absolute;
 }
 
-.character{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90%;
-    width: 20%;
+.character {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 20%;
 }
 
-.samurai{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.samurai {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.samurai-text{
-    position: absolute;
-    margin-top: 400px;
+.samurai-text {
+  position: absolute;
+  margin-top: 400px;
 }
 
-.samurai-text h1{
-    font-size: 2.6em;
-    margin-bottom: 20px;
+.samurai-text h1 {
+  font-size: 2.6em;
+  margin-bottom: 20px;
 }
 
-.samurai-text p{
-    /* border: 2px solid red; */
-    margin: 10px;
+.samurai-text p {
+  /* border: 2px solid red; */
+  margin: 10px;
 }
 
-.hero{
-    align-self: center;
+.hero {
+  align-self: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .characters-container {
+      justify-content: space-between;
+  }
+
+  .wretch {
+    display: none;
+  }
+  .hero {
+    display: none;
+  }
 }

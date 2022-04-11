@@ -233,15 +233,15 @@
   width: 50px;
 }
 
-.shop-now-container {
+.shop-now-button-container {
   /* background-color: ; */
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;
-  height: 6%;
+  
 }
 
-.shop-now-container button {
+.shop-now-button-container button {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -251,9 +251,10 @@
   color: white;
   margin-top: 0px;
   width: 170px;
+  padding: 12px;
 }
 
-.shop-now-container button:hover {
+.shop-now-button-container button:hover {
   background-color: inherit;
   border: 1px solid rgb(193, 157, 83);
   /* color:rgb(193,157,83); */
@@ -278,7 +279,7 @@
 
 .ratings img{
   object-fit: cover;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 

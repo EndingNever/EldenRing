@@ -16,12 +16,12 @@
 
 .header-component{
   /* border: 2px solid red; */
-  max-width: 100vw;
   height: 630px;
+  max-width: 100vw;
 }
 
 .elden-component{
-  height: 1600px;
+  /* padding:0px; */
 }
 
 .overlay-component{
@@ -39,8 +39,8 @@
   background-position: 50% 30%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1940px;
-  width: 100%;
+  /* height: 1940px; */
+  max-width: 100vw;
 }
 
 .characters-component{
@@ -50,6 +50,7 @@
   background-size: cover;
   background-position: center;
   height: 920px;
+  max-width: 100vw;
 }
 
 .shopnow-component{
@@ -59,4 +60,5 @@
   background-position: center;
   background-size: cover;
   height: 4000px;
+  max-width: 100vw;
 }
