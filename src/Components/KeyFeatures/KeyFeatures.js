@@ -39,7 +39,7 @@ export default function KeyFeatures() {
           </div>
         </div>
         <div className="KF-video-text">
-          <div className='KFVideo-container '> {/* Video 2 */}
+          <div className='KFVideo-container KFVC2'> {/* Video 2 */}
             <div className="KFVideo-container-text ">
               <div className="KFVideo-overlap-text video-2-title">
                 <h2>WORLD EXPLORATION IN THE LANDS BETWEEN</h2>
