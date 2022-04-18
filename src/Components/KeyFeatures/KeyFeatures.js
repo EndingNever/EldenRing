@@ -21,7 +21,7 @@ export default function KeyFeatures() {
         <div className="KF-video-text">
           <div className='KFVideo-container'> {/* Video 1 */}
             <div className="KFVideo-container-video">
-              <video autoPlay loop muted src={image[0].url} alt="" />
+              <video autoPlay loop muted src={process.env.PUBLIC_URL + image[0].url} alt="" />
             </div>
             <div className="KFVideo-container-text">
               <div className="KFVideo-overlap-text">
@@ -54,14 +54,14 @@ export default function KeyFeatures() {
               </div>
             </div>
             <div className="KFVideo-container-video">
-              <video autoPlay loop muted src={image[1].url} alt="" />
+              <video autoPlay loop muted src={process.env.PUBLIC_URL + image[1].url} alt="" />
             </div>
           </div>
         </div>
         <div className="KF-video-text">
           <div className='KFVideo-container'> {/* Video 3 */}
             <div className="KFVideo-container-video">
-              <video autoPlay loop muted src={image[2].url} alt="" />
+              <video autoPlay loop muted src={process.env.PUBLIC_URL + image[2].url} alt="" />
             </div>
             <div className="KFVideo-container-text">
               <div className="KFVideo-overlap-text gdg">

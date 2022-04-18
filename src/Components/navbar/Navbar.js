@@ -38,9 +38,9 @@ export default function Navbar() {
       </div>
       <div className="search-container">
         <input className='search-container-item' type="text" placeholder='Search' />
-        <img src='/images/navigation/email-svgrepo-com.svg' className='search-container-item' id='mail'></img>
+        <img src={process.env.PUBLIC_URL + '/images/navigation/email-svgrepo-com.svg'} className='search-container-item' id='mail'></img>
         <span id="hr"></span>
-        <img src='/images/navigation/user-svgrepo-com.svg' className='search-container-item' id="user"></img>
+        <img src={process.env.PUBLIC_URL + '/images/navigation/user-svgrepo-com.svg'} className='search-container-item' id="user"></img>
       </div>
     </div>
   )

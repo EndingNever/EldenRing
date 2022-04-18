@@ -14,9 +14,9 @@ function App() {
       <div className="navbar-component">
         <Navbar />
       </div>
-      {/* <div className="overlay-component">
+      <div className="overlay-component">
         <Overlay />
-      </div> */}
+      </div>
       <div className="header-component">
         <Header />
       </div>
