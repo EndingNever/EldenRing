@@ -13,6 +13,8 @@
 }
 
 .KF-text-container{
+    /* border: 2px solid red; */
+    margin-bottom: 32px;
     padding: 4px;
     /* width: 100%; */
 }
@@ -29,7 +31,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
 }
 
 .KFVideo-container-video{
@@ -46,17 +47,21 @@
 }
 
 .KFVideo-container-text{
-    height: 75%;
+
+    /* height: 75%; */
     width: 50%;
     margin-top: 50px;
     z-index: 1;
-    /* border: 2px solid red; */
+
 }
 
 .KFVideo-overlap-text{
-    height: 13%;
-    width: 60%;
-    margin-left: -55px;
+    /* height: 13%; */
+    width: 80%; 
+    position: relative;
+    right: 32px;
+    white-space: nowrap;
+    /* margin-left: -55px; */
 }
 
 
@@ -82,14 +87,14 @@
 
 
 .video-2-title{
+    /* border: 2px solid red; */
+    position: relative;
+    left: 120px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     background-color: rgb(189, 154, 82);
-    padding-left: 15px;
-    margin-left: 105px;
-    /* height: 13%; */
-    min-width: 100%;
+    width: 90%;
 }
 
 .video-2-title h2{
@@ -109,11 +114,33 @@
     align-items: center;
     justify-content: flex-start;
     margin-left: -16%;
-    width: 100%;
+    width: 80%;
 }
 
 .KFVideo-overlap-text.gdg h2{
     /* height: 100%; */
     /* border: 2px solid red; */
     width: 105%;
+}
+
+@media screen and (max-width:1200px) {
+    .keyfeatures-container{
+        text-align: center;
+    }
+    .keyfeatures-container h1{
+        text-align: start;
+    }
+
+    .KF-video-text{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .KFVideo-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
 }
