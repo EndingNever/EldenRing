@@ -135,12 +135,48 @@
         margin-top: 60px;
         margin-bottom: 60px;
     }
+
+    .KFVideo-container-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     
     .KFVideo-container{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
 
+    .KFVideo-container-video{
+        width: 80%;
+    }
+
+    .KFVideo-overlap-text{
+        width: auto; 
+        position: inherit;
+    }
+
+    .KFVText-2{
+        order: 2;
+    }
+    
+    .KFV-2{
+    }
+
+    .KFVideo-overlap-text h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(189, 154, 82);
+        text-transform: uppercase;
+        font-size: 24px;
+        /* height: 100%; */
+        margin: 0px;
+        padding-right: 0px;
+        padding: 5px;
     }
 }

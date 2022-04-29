@@ -40,7 +40,7 @@ export default function KeyFeatures() {
         </div>
         <div className="KF-video-text">
           <div className='KFVideo-container KFVC2'> {/* Video 2 */}
-            <div className="KFVideo-container-text ">
+            <div className="KFVideo-container-text KFVText-2">
               <div className="KFVideo-overlap-text video-2-title">
                 <h2>WORLD EXPLORATION IN THE LANDS BETWEEN</h2>
               </div>
@@ -53,7 +53,7 @@ export default function KeyFeatures() {
                 </p>
               </div>
             </div>
-            <div className="KFVideo-container-video">
+            <div className="KFVideo-container-video KFV-2">
               <video autoPlay loop muted src={process.env.PUBLIC_URL + image[1].url} alt="" />
             </div>
           </div>
