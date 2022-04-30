@@ -29,9 +29,9 @@ function App() {
       <div className="characters-component">
         <Characters />
       </div>
-      {/* <div className="shopnow-component">
+      <div className="shopnow-component">
         <Shopnow />
-      </div> */}
+      </div>
     </div>
   );
 }

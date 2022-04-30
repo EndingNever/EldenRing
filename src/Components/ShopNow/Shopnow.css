@@ -12,7 +12,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 2px solid red; */
   height: 10%;
   width: 90%;
 }
@@ -69,9 +68,9 @@
 }
 
 .comparison-row {
-  /* border: 2px solid red; */
-  width: 70%;
-  height: 35%;
+  margin-bottom: 32px;
+  width: 75%;
+  height: 50%;
 }
 
 .comparison-nav-arrows {
@@ -102,6 +101,7 @@
   height: 40px;
   width: 40px;
 }
+
 
 .comparison-chart h3 {
   margin: 0px;
@@ -388,5 +388,38 @@
 }
 
 .follow-us-component-container{
-  /* border: 2px solid purple; */
+}
+
+@media screen and (max-width:1200px) {
+  .shopnow-container {
+    padding-top: 20px;
+  }
+
+  .comparison-row{
+    margin-bottom: 80px;
+  }
+
+  .comparison-cards{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 2000px;
+    /* height: ; */
+  }
+
+  .comparison-card{
+    width: 60%;
+  }
+
+  .comparison-row {
+    width: 90%;
+  }
+
+  .comparison-card-photo{
+    background-size: contain;
+  }
+
+  .comparison-card-text{
+    height: auto;
+  }
 }
