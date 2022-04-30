@@ -160,11 +160,18 @@
         position: inherit;
     }
 
+    .KFVideo-overlap-text h2{
+        width: 100%;
+        white-space: normal;
+    }
+
     .KFVText-2{
         order: 2;
     }
     
-    .KFV-2{
+    .video-2-title{
+        width: 100%;
+        white-space: normal;
     }
 
     .KFVideo-overlap-text h2{
