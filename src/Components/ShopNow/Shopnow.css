@@ -376,7 +376,7 @@
 .guide-text-under-screenshots{
   /* border: 2px solid purple; */
   font-weight: 500;
-  height: 420px;
+  /* height: 420px; */
   width: 100%;
 }
 
@@ -393,33 +393,60 @@
 @media screen and (max-width:1200px) {
   .shopnow-container {
     padding-top: 20px;
-  }
-
-  .comparison-row{
-    margin-bottom: 80px;
+    padding-bottom: 20px;
   }
 
   .comparison-cards{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 2000px;
-    /* height: ; */
+    height: 1400px;
+    margin-bottom: 20px;
   }
 
   .comparison-card{
+    height: 500px;
+    margin-bottom: 20px;
     width: 60%;
   }
 
   .comparison-row {
     width: 90%;
+    margin-bottom: 0px;
   }
 
   .comparison-card-photo{
     background-size: contain;
+    height: 60%;
   }
 
-  .comparison-card-text{
-    height: auto;
-  }
+  .guides-advice{
+    width: 80%;
+}
+
+.guide-screenshots{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.screenshots-container{
+  /* border: 2px solid red; */
+  object-fit: contain;
+  /* flex-direction: column; */
+  width: 97vw;
+  height: 40%;
+}
+
+.guide-text-under-screenshots{
+  line-height: 1.5;
+}
+
+.news-component-container{
+  margin-top: 20px;
+}
+
+
 }

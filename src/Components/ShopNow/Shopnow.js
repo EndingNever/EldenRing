@@ -91,7 +91,7 @@ export default function Shopnow() {
             <div className="guides-advice">
                 <div className="guides-title">
                     <h1>
-                        ELDEN RING: Guides & Advice
+                        ELDEN RING: Guides {'&'} Advice
                     </h1>
                     <p>
                         Get ready for your journey through the Lands Between
@@ -176,17 +176,9 @@ export default function Shopnow() {
                     </div>
                 </div>
             </div>
-
-            <div className="news-component-container">
+            {/* <div className="news-component-container">
                 <News />
-            </div>
-            
-            {/* <div className="follow-us-component-container">
-                <Follow />
             </div> */}
-            
-            
-            
         </div >
     )
 }
