@@ -6,6 +6,8 @@
   color: white;
   /* border: 2px solid purple; */
   height: 100%;
+  width: 99vw;
+  max-width: 100%;
 }
 
 .top-row {
@@ -44,7 +46,6 @@
 }
 
 .platform-row {
-  /* border: 2px solid rebeccapurple; */
   width: 30%;
   /* height: 15%; */
 }
@@ -276,14 +277,12 @@
 }
 
 .guides-button{
-    /* border: 2px solid red; */
     margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .guides-button button{
-    /* border: 2px solid red; */
     border:none;
     border-radius: 8px;
     background-color: rgb(189, 154, 82);
@@ -293,7 +292,6 @@
 }
 
 .elegant-space-container{
-  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -415,6 +413,10 @@
     margin-bottom: 0px;
   }
 
+  .elegant-border-row{
+    height: 60px;
+  }
+
   .comparison-card-photo{
     background-size: contain;
     /* height: 60%; */
@@ -456,5 +458,43 @@
   margin-top: 20px;
 }
 
+@media screen and (max-width:600px) {
+.shopnow h1{
+  font-size:larger;
+  margin-left: 0px;
+}
+
+.country{
+  width: 50%;
+}
+
+.select-country {
+  background-color: transparent;
+  border-width: 0 0 1px;
+  color: white;
+  /* padding-bottom: 10px; */
+  /* padding-right: 40px; */
+}
+
+.platform-row{
+  width: 75vw;
+}
+
+.platform-row-consoles{
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 75vw;
+}
+
+.pr-console {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+}
+
+}
 
 }
