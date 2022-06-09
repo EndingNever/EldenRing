@@ -54,7 +54,7 @@ export default function Eldenring() {
               </div>
               <div className='shop-now-button-container'>
                 <button>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M15.894 4.079h-1.735a4.116 4.116 0 00-8.232.075v.834c0 .262.213.475.476.475h4.17a.717.717 0 00.767-.667.717.717 0 00-.717-.717H7.362a2.727 2.727 0 012.727-2.661 2.686 2.686 0 012.636 2.677v.934c0 .263.213.476.475.476h1.735l.717 13.052H4.435l.717-13.761a.717.717 0 00-1.435 0L3 19.516a.475.475 0 00.475.484h13.136a.475.475 0 00.476-.475l-.743-14.971a.475.475 0 00-.45-.475z" fill="#FFF" fill-rule="evenodd" /></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M15.894 4.079h-1.735a4.116 4.116 0 00-8.232.075v.834c0 .262.213.475.476.475h4.17a.717.717 0 00.767-.667.717.717 0 00-.717-.717H7.362a2.727 2.727 0 012.727-2.661 2.686 2.686 0 012.636 2.677v.934c0 .263.213.476.475.476h1.735l.717 13.052H4.435l.717-13.761a.717.717 0 00-1.435 0L3 19.516a.475.475 0 00.475.484h13.136a.475.475 0 00.476-.475l-.743-14.971a.475.475 0 00-.45-.475z" fill="#FFF" fillRule="evenodd" /></svg>
                   Shop Now
                 </button>
               </div>
@@ -63,7 +63,7 @@ export default function Eldenring() {
               <div className="video-border">
                 <img src={process.env.PUBLIC_URL + "/images/border.png"} alt="" />
               </div>
-              <video autoPlay loop muted src={process.env.PUBLIC_URL + "/images/launch-trailer.webm"} frameborder="0" allow='autoPlay; loop'></video>
+              <video autoPlay loop muted src={process.env.PUBLIC_URL + "/images/launch-trailer.webm"} frameBorder="0" allow='autoPlay; loop'></video>
               <svg className='icon-player' xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 60 60" aria-hidden="true">
                 <path d="m39.341 31.639-14.384 10.165c-0.202 0.143-0.43701 0.212-0.66999 0.212-0.34899 0-0.69399-0.155-0.91598-0.447-0.37101-0.48699-0.262-1.171 0.243-1.528l14.092-9.9592-13.659-9.654v12.684c0 0.60399-0.50799 1.094-1.135 1.094s-1.135-0.48999-1.135-1.094v-13.196c0-0.732 0.42-1.393 1.096-1.723 0.675-0.32901 1.474-0.265 2.085 0.167l14.381 10.164c0.513 0.36201 0.81998 0.945 0.81998 1.559 0 0.61299-0.306 1.194-0.81802 1.556m-9.3412-31.638c-16.568 0-30 13.432-30 30 0 16.569 13.432 30 30 30 16.569 0 30-13.431 30-30 0-16.568-13.431-30-30-30"></path>
               </svg>
