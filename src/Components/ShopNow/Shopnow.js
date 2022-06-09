@@ -2,7 +2,27 @@ import React from 'react'
 import './Shopnow.css'
 import { xbox, ps5, xbone, ps4, pc, shopSVGLarge, shopSVG } from '../consoles-svg/consoles';
 import News from '../News/News';
+import keyart from "../../keyart.jpg"
+import keyart2 from "../../keyart2.jpg"
+import keyart3 from "../../keyart3.jpg"
 
+const officialStore = "Official Store";
+const retailers = "Retailers"
+
+const comparisonCardMap = [
+    {
+        title: "Standard Edition",
+        image: keyart,
+    },
+    {
+        title: "Deluxe Edition",
+        image: keyart2,
+    },
+    {
+        title: "Launch Edition",
+        image: keyart3
+    }
+]
 
 export default function Shopnow() {
     return (
@@ -42,9 +62,22 @@ export default function Shopnow() {
                 <div className="comparison-chart">
                     <h3><u>Comparison Chart</u></h3>
                     <div className="comparison-cards">
-                        <div className="comparison-card">
+                        {comparisonCardMap.map((card) => (
+                            <div className="comparison-card" >
+                                <div className="comparison-card-photo" style={{ backgroundImage: `url(${card.image})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: "contain" }}></div>
+                                <div className="comparison-card-text">
+                                    <h2>{card.title}</h2>
+                                    <button className='comparison-button official-store'><span className='comparison-shop-SVG'>{shopSVG}</span> Official Store</button>
+                                    <button className='comparison-button'>Retailers</button>
+                                    <div className="comparison-details">
+                                        <h4>Details</h4>
+                                        <p>+</p>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                        {/* <div className="comparison-card">
                             <div className="comparison-card-photo card1">
-                                {/* photo */}
                             </div>
                             <div className="comparison-card-text card-text-1">
                                 <h2>Standard Edition</h2>
@@ -79,7 +112,7 @@ export default function Shopnow() {
                                     <p>+</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

@@ -109,7 +109,6 @@
 }
 
 .comparison-cards {
-  /* border: 2px solid gray; */
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -132,7 +131,7 @@
 }
 
 .card1 {
-  background-image: url("/public/images/keyart.jpg");
+  /* background-image: url("/public/images/keyart.jpg"); */
 }
 
 .comparison-button {
@@ -165,11 +164,11 @@
 }
 
 .card2 {
-  background-image: url("/public/images/keyart2.jpg");
+  /* background-image: url("/public/images/keyart2.jpg"); */
 }
 
 .card3 {
-  background-image: url("/public/images/keyart3.jpg");
+  /* background-image: url("/public/images/keyart3.jpg"); */
 }
 
 .comparison-card-text {
@@ -400,12 +399,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 1400px;
+    height: 2000px;
     margin-bottom: 20px;
   }
 
   .comparison-card{
-    height: 500px;
+    /* border: 2px solid purple; */
+    /* height: 700px; */
     margin-bottom: 20px;
     width: 60%;
   }
@@ -417,7 +417,15 @@
 
   .comparison-card-photo{
     background-size: contain;
-    height: 60%;
+    /* height: 60%; */
+  }
+
+  .comparison-card-text{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+    height: 50%;
   }
 
   .guides-advice{
