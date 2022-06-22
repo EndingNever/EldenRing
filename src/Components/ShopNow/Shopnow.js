@@ -79,43 +79,6 @@ export default function Shopnow() {
                                 </div>
                             </div>
                         ))}
-                        {/* <div className="comparison-card">
-                            <div className="comparison-card-photo card1">
-                            </div>
-                            <div className="comparison-card-text card-text-1">
-                                <h2>Standard Edition</h2>
-                                <button className='comparison-button official-store'><span className='comparison-shop-SVG'>{shopSVG}</span> Official Store</button>
-                                <button className='comparison-button'>Retailers</button>
-                                <div className="comparison-details">
-                                    <h4>Details</h4>
-                                    <p>+</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="comparison-card">
-                            <div className="comparison-card-photo card2">
-                            </div>
-                            <div className="comparison-card-text">
-                                <h2>Digital Deluxe Edition</h2>
-                                <button className='comparison-button'>Retailers</button>
-                                <div className="comparison-details">
-                                    <h4>Details</h4>
-                                    <p>+</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="comparison-card">
-                            <div className="comparison-card-photo card3">
-                            </div>
-                            <div className="comparison-card-text">
-                                <h2>Launch Edition</h2>
-                                <button className='comparison-button official-store'><span className='comparison-shop-SVG'>{shopSVG}</span> Official Store</button>
-                                <div className="comparison-details">
-                                    <h4>Details</h4>
-                                    <p>+</p>
-                                </div>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>
