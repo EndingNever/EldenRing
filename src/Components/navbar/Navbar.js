@@ -2,25 +2,6 @@ import React from 'react'
 import './Navbar.css'
 
 export default function Navbar() {
-  // const photos = [
-  //   {
-  //     url: 'https://en.bandainamcoent.eu/themes/custom/bne_main/dist/images/logoGames.svg'
-  //   },
-  //   {
-  //     url: 'https://en.bandainamcoent.eu/themes/custom/bne_main/dist/images/logoStore.svg'
-  //   },
-  //   {
-  //     url: 'https://en.bandainamcoent.eu/themes/custom/bne_main/dist/images/logoNews.svg'
-  //   },
-  //   {
-  //     url: 'https://en.bandainamcoent.eu/themes/custom/bne_main/dist/images/logoEpic.svg'
-  //   },
-  //   {
-  //     url: 'https://en.bandainamcoent.eu/themes/custom/bne_main/dist/images/logoSupport.svg'
-  //   },
-  // ]
-
-
   return (
 
     <div className='navbar-container'>
