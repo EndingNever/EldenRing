@@ -1,5 +1,5 @@
 .navbar-container {
-  background-color: rgb(255, 173, 0);
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,17 +19,13 @@
   width: 650px;
 }
 
-.brand-logo {
-  background-image: url("/public/images/bandai-logo.png");
-  /* background-size: cover; */
-  background-position: 50% 52%;
-  background-size: cover;
+.bandai-brand{
+  background-image: url("../../bandai.svg");
   background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-position: center;
+  background-size: 65%;
   height: 100%;
-  width: 100px;
+  width: 100%;
 }
 
 .navigation-bar {
@@ -61,7 +57,12 @@
   justify-content: center;
   height: 100%;
   margin-right: 50px;
-  width: 400px;
+  /* width: 400px; */
+}
+
+.search-container img{
+  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .search-container input {
@@ -202,11 +203,10 @@
 }
 
 @media screen and (max-width: 480px) {
-
-  .navbar-container{
+  .navbar-container {
     width: 100vw;
   }
-  
+
   .brand-logo {
     display: none;
   }
