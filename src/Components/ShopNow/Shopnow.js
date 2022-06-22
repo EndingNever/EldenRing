@@ -206,7 +206,7 @@ export default function Shopnow() {
                     <h3>But you will return to fight again.</h3>
                     <h3>For that is how a champion – or a Lord – is born.</h3>
                 </div>
-                <div className="elegant-space-container">
+                <div style={{marginBottom: '40px'}} className="elegant-space-container">
                     <div className="elegant-space">
                         {/* Ornament Background */}
                     </div>

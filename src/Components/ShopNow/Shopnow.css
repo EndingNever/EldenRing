@@ -312,7 +312,7 @@
 .tarnished-text-container{
   /* border: 2px solid red; */
   margin-top: 50px;
-  height: 400px;
+  /* height: 400px; */
 }
 
 .tarnished-text{
@@ -384,9 +384,6 @@
   width: 90%;
 }
 
-.follow-us-component-container{
-}
-
 @media screen and (max-width:1200px) {
   .shopnow-container {
     padding-top: 20px;
@@ -435,11 +432,15 @@
 }
 
 .guide-screenshots{
+  /* border: 2px solid red; */
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  /* margin-top: 100px; */
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .screenshots-container{
@@ -447,7 +448,7 @@
   object-fit: contain;
   /* flex-direction: column; */
   width: 97vw;
-  height: 40%;
+  height: 100px;
 }
 
 .guide-text-under-screenshots{
