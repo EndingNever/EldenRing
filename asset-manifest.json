@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EldenRing/static/css/main.f68d6c8d.css",
-    "main.js": "/EldenRing/static/js/main.dc4ee095.js",
+    "main.css": "/EldenRing/static/css/main.f33e29fd.css",
+    "main.js": "/EldenRing/static/js/main.deb541b2.js",
     "static/js/787.81fd81ef.chunk.js": "/EldenRing/static/js/787.81fd81ef.chunk.js",
     "static/media/border-leaf.png": "/EldenRing/static/media/border-leaf.6012c29ec3c88cf0958c.png",
     "static/media/godfried.jpg": "/EldenRing/static/media/godfried.b841c9c791d60e3ba883.jpg",
@@ -19,15 +19,15 @@
     "static/media/characters-bg.jpg": "/EldenRing/static/media/characters-bg.083bf9e6059f26c97a95.jpg",
     "static/media/eldenring_banner.png": "/EldenRing/static/media/eldenring_banner.c471a2f9b4715c5946b7.png",
     "static/media/ornament-icon-feather.png": "/EldenRing/static/media/ornament-icon-feather.7c5cc6b406d4ccf2d13b.png",
-    "static/media/logo.svg": "/EldenRing/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/bandai.svg": "/EldenRing/static/media/bandai.d7e123edbce29c6b787d.svg",
     "index.html": "/EldenRing/index.html",
-    "static/media/icons8-search.svg": "/EldenRing/static/media/icons8-search.04a9d1679296fd2f5cb4.svg",
-    "main.f68d6c8d.css.map": "/EldenRing/static/css/main.f68d6c8d.css.map",
-    "main.dc4ee095.js.map": "/EldenRing/static/js/main.dc4ee095.js.map",
+    "static/media/icons8-search.svg": "/EldenRing/static/media/icons8-search.d7db104bde81d736a87c.svg",
+    "main.f33e29fd.css.map": "/EldenRing/static/css/main.f33e29fd.css.map",
+    "main.deb541b2.js.map": "/EldenRing/static/js/main.deb541b2.js.map",
     "787.81fd81ef.chunk.js.map": "/EldenRing/static/js/787.81fd81ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f68d6c8d.css",
-    "static/js/main.dc4ee095.js"
+    "static/css/main.f33e29fd.css",
+    "static/js/main.deb541b2.js"
   ]
 }
